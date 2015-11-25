@@ -1,0 +1,30 @@
+---
+title: "irisデータでRマークダウン"
+author: "岡部 格明"
+date: "2015年11月25日"
+output: html_document
+---
+
+Rマークダウンを使うと，Rで分析した流れをそのままレポートに書き出すことができます．
+
+# irisデータ
+Rのデータセットとして有名なirisデータについては以下を参照．  
+<http://d.hatena.ne.jp/tsutatsutatsuta/20121206/1354737461>
+
+irsiデータの概要は次の通り
+```{r}
+head(iris)
+```
+
+```{r}
+summary(iris)
+```
+
+散布図行列として要約すると以下の通り．
+
+```{r, echo=FALSE}
+plot(iris)
+```
+
+今回の.Rmdファイルは以下のURLからダウンロードできます．  
+<http://mokab.github.io/SDD_151125/sdd.Rmd>
